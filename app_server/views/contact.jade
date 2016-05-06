@@ -1,0 +1,43 @@
+extends layout
+
+block content
+  section.section-block.featured-media.page-intro.tm-slider-parallax-container
+      .tm-slider-container.full-width-slider(data-parallax='', data-animation='slide', data-scale-under='1140')
+        ul.tms-slides
+          li.tms-slide(data-image='', data-force-fit='')
+            .tms-content
+              .tms-content-inner.left
+                .row
+                  .column.width-12
+                    h1.tms-caption.color-white.inline(data-animate-in='opacity:0;transY:50px;duration:1000ms;delay:100ms;easing:easeFastSlow;', data-no-scale='')
+                      | Contact Us
+            img(data-src='images/slider/contact_1600_500.jpg', data-retina='', src='images/blank.png', alt='')
+    .section-block.replicable-content
+      .row
+        .column.width-8.offset-2.center
+          p.lead.text-blue
+            | Hi there, 
+            strong we would love to hear from you
+            | , drop us a line or two.
+    section.section-block.replicable-content.contact-2.no-padding-top
+      .row
+        .column.width-8.offset-2.center
+          h2.mb-30 Say Hello
+          .contact-form-container
+            form.contact-form(action='contact', method='post', novalidate='')
+              .row
+                .column.width-6
+                  input.form-fname.form-element.large(type='text', name='fname', placeholder='First Name*', tabindex='1', required='')
+                .column.width-6
+                  input.form-lname.form-element.large(type='text', name='lname', placeholder='Last Name', tabindex='2')
+                .column.width-6
+                  input.form-email.form-element.large(type='email', name='email', placeholder='Email address*', tabindex='3', required='')
+                .column.width-6
+                  input.form-website.form-element.large(type='text', name='website', placeholder='Website', tabindex='4')
+                .column.width-6
+                  input.form-honeypot.form-element.large(type='text', name='honeypot')
+              .row
+                .column.width-12.center
+                  textarea.form-message.form-element.large(name='message', placeholder='Message*', tabindex='5', required='')
+                  input.form-submit.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook(type='submit', value='Send Email')
+            .form-response.center

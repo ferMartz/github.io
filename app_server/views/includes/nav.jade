@@ -1,0 +1,32 @@
+// includes/nav.jade
+header.header.header-absolute.header-fixed-on-mobile.header-transparent(data-helper-in-threshold='200', data-helper-out-threshold='500', data-sticky-threshold='200', data-bkg-threshold='100', data-compact-threshold='100')
+      .header-inner
+        .row.nav-bar
+          .column.width-12.nav-bar-inner
+            .logo
+              .logo-inner
+                a(href='/')
+                  img(src='images/logo-dark.png', alt='Tripkii Logo')
+                a(href='/')
+                  img(src='images/logo.png', alt='Tripkii Logo')
+            nav.navigation.nav-block.secondary-navigation.nav-right
+              ul
+                li.aux-navigation.hide
+                  a.navigation-show.side-nav-show.nav-icon(href='#')
+                    span.icon-menu
+            nav.navigation.nav-block.primary-navigation.sub-menu-indicator.nav-right.no-margin-right
+              ul
+                li.current
+                  a(href='/engine') Hotels & Packages
+                li.current
+                  a(href='http://search.ss.tripkii.com/en-GB/flights') Flights
+                li.current
+                  a(href='/experiences') Travel Experiences
+                li.contains-sub-menu
+                  a(href='#') About
+                  ul.sub-menu
+                    li
+                      a(href='/about') About Us
+                    li
+                      a(href='/contact') Contact Us
+            

@@ -1,0 +1,73 @@
+extends layout
+
+block content
+  section.section-block.featured-media.window-height.tm-slider-parallax-container
+      .tm-slider-container.full-width-slider(data-featured-slider='', data-parallax='', data-scale-under='960')
+        ul.tms-slides
+          li.tms-slide(data-image='', data-force-fit='', data-overlay-bkg-color='#000000', data-overlay-bkg-opacity='0.35')
+            .tms-content
+              .tms-content-inner.center.left-on-mobile.v-align-middle
+                .row
+                  .column.width-10.offset-1
+                    h3.tms-caption.no-padding-on-mobile.text-uppercase.lspacing-small.mb-10.weight-bold.color-white(data-animate-in='opacity:0;scale:1.5;duration:900ms;delay:100ms;easing:easeFastSlow;', data-no-scale='') You choose the adventure
+                    .clear
+                    h1.tms-caption.title-xlarge.no-padding-on-mobile.text-uppercase.lspacing-medium.mb-20.weight-bold.color-white(data-animate-in='opacity:0;scale:1.5;duration:900ms;delay:100ms;easing:easeFastSlow;', data-no-scale='') We make it happen
+                    .row
+                      .column.width-6.offset-3.weight-light
+                        a.tms-caption.button.scroll-link.medium.border-white.bkg-hover-grey-ultralight.color-white.color-hover-grey.text-uppercase(href='#about', data-offset='-60', data-animate-in='opacity:0;scale:1.5;duration:900ms;delay:400ms;easing:easeFastSlow;', data-no-scale='') Let's do it
+            img(data-src='images/travel-agency/slider/slide-12-fs.jpg', data-retina='', src='images/blank.png', alt='')
+  section#about.section-block.replicable-content.bkg-base
+      .row
+        .column.width-8.offset-2.center
+          h2.mb-40.text-uppercase
+            | Why 
+            span.transparent-element travel experiences
+        .equalize.row.content-grid-3
+          .grid-item
+            .box.rounded.bkg-skype.color-white.center(style='height:100%')
+              h5.text-uppercase What is a travel experience?
+              p
+                | A travel experience is more than a vacation. It’s a chance to get to know your world better by putting yourself on a first-name basis with the people, places, and things that make it worth exploring.
+          .grid-item
+            .box.rounded.bkg-skype.color-white.center(style='height:100%')
+              h5.text-uppercase Why a small-group travel?
+              p
+                | The world opens up a bit more for a small-crew. Small groups offer security, access, team spirit, and a stronger affinity with your destination than you’ll get by traveling any other way.
+          .grid-item
+            .box.rounded.bkg-skype.color-white.center(style='height:100%')
+              h5.text-uppercase Why us?
+              p
+                | We’re the small-group of travelers who have partnered with the best in the industry. Our goal is to give people one of the most exciting, fun and enjoyable travel experiences of their lives.
+  .section-block.grid-filter-menu.center
+      .row
+        .column.width-12
+          ul
+            li
+              a.active(href='#', data-filter='*') All
+            li
+              a(href='#', data-filter='.design') Design
+            li
+              a(href='#', data-filter='.identity') Identity
+            li
+              a(href='#', data-filter='.photography') Photograhy
+            li
+              a(href='#', data-filter='.application') Applications
+    .section-block.grid-container.fade-in-progressively.no-padding-top(data-layout-mode='masonry', data-grid-ratio='1.5', data-animate-filter-duration='0.7', data-animate-resize='', data-animate-resize-duration='0')
+      .row
+        .column.width-12
+          .row.grid.content-grid-3
+           each experience in explista
+            .grid-item.grid-sizer.photography
+              .thumbnail.img-scale-in(data-hover-easing='easeInOut', data-hover-speed='700', data-hover-bkg-color='#ffffff', data-hover-bkg-opacity='0.9')
+                a.overlay-link(href='project-style-one.html')
+                  img(src=experience.imgsrc, alt='')
+                  span.overlay-info
+                    span
+                      span
+                        span.icon-export.color-skype
+              .item-description
+                h3.project-title= experience.title + "$ " + experience.price
+                span.project-description= experience.excerpt
+
+
+     

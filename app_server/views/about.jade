@@ -1,0 +1,62 @@
+extends layout
+
+block content
+ .section-block.intro-title-2
+  .row
+   .column.width-12
+    .title-container
+     .title-container-inner.center.color-white
+      h1.inline.no-margin-bottom About Us
+ .section-block.replicable-content
+      .row
+        .column.width-8.offset-2.center
+          h2.mb-40.text-uppercase
+            | Our 
+            span.transparent-element Philosophy
+          p.lead.color-facebook.mb-60
+            | We are passionate travelers with one simple goal in mind: Inspire you to travel the world.
+    .section-block.hero-5.hero-5-3.clear-height.right.show-media-column-on-mobile.bkg-gray-cool.color-white
+      .media-column.width-6.horizon(data-animate-in='opacity:0;transX:50px;duration:1000ms;delay:100ms;easing:easeIn;', data-threshold='0.5')
+      .row
+        .column.width-5
+          .hero-content.split-hero-content
+            .hero-content-inner.left.center-on-mobile.horizon(data-animate-in='opacity:0;duration:1300ms;easing:easeIn;', data-threshold='0.5')
+              h2.mb-40.text-uppercase(style='font-size: 3.0rem;') Why we built Tripkii
+              p.lead We believe travel make us think, learn and connect with what really matters: Our people and our world. We believe in what we do and do what we love.
+              .box.large.border-white
+               | For us is simple, we couldn't see a better way to spend our days but inspiring people to do what we love the most: TRAVEL.
+    .section-block.testimonial-5.testimonials-5-about-1
+      #testimonial-slider-1.testimonial-slider.tm-slider-container
+        ul.tms-slides
+          li.tms-slide(data-image='')
+            .tms-content-scalable
+              .row
+                .column.width-12
+                  blockquote.center.large
+                    p
+                      | A journey is best measured in friends, rather than miles.
+                      cite Tim Cahill
+          li.tms-slide(data-image='')
+            .tms-content-scalable
+              .row
+                .column.width-12
+                  blockquote.center.large
+                    p
+                      | Travel is the only thing you buy that makes you richer.
+                      cite Some wise old adage
+          li.tms-slide(data-image='')
+            .tms-content-scalable
+              .row
+                .column.width-12
+                  blockquote.center.large
+                    p
+                      | Remember that happiness is a way of travel – not a destination.
+                      cite Roy M. Goodman
+          li.tms-slide(data-image='')
+            .tms-content-scalable
+              .row
+                .column.width-12
+                  blockquote.center.large
+                    p
+                      | Not all those who wander are lost.
+                      cite J.R.R. Tolkien

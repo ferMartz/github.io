@@ -79,7 +79,7 @@ block content
             each promo in promos
              .grid-item
               .thumbnail.overlay-fade-out(data-hover-easing='easeInOut', data-hover-speed='500', data-hover-bkg-color='#222222', data-hover-bkg-opacity='.3')
-                a.overlay-link.lightbox-link(data-group='project-1', data-caption=promo.product + " - " + promo.destination + " $" +promo.price, data-image-url='http://sartre.thememountain.com/images/design-agency/portfolio/grid/no-margins/angra-dos-reis-900x900.jpg', href=promo.linkurl, data-lightbox-animation='slideInBottom')
+                a.tml-link.lightbox-link(data-group='data-toolbar=', data-modal-mode='', data-modal-width='800', data-content='inline', href=promo.modalid)
                   img(src=promo.imgsrc, alt='')
                   span.overlay-info.center
                     span
@@ -116,4 +116,20 @@ block content
                 | We are an online travel agency but we don't stop there. You can easily reach us, seriously. If you happen to have a question, just head to our 
                 a.weight-bold(href='/contact') contact
                 |  page and click the button live chat. We would answer immediately unless we are not in office hours. If that's the case we will get back to you in less than 12 hours. Promise!
+    #one(style='padding:30px;display:none;')
+      h3 This is a modal
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See Our Staff Picks
+    #two(style='padding:30px;display:none;')
+      h3 This is a modal two
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See Our Staff Picks
+    #three(style='padding:30px;display:none;')
+      h3 This is a modal three
+      p
+        | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See Our Staff Picks
+
 

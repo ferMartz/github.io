@@ -1,6 +1,6 @@
 var mongoose = require( 'mongoose' );
 var gracefulShutdown;
-var dbURI = 'mongodb://localhost/dragonv3';
+var dbURI = 'mongodb://localhost/dragonv5';
 mongoose.connect(dbURI);
 
 

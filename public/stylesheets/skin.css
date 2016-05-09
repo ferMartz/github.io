@@ -3582,7 +3582,7 @@ only screen and (				min-resolution: 2dppx) {
 }
 .header-background .navigation > ul > li.current > a{
 	color: #04a2e4;
-	
+
 }
 .header-background .navigation > ul > li.current > a:hover{
 	color: #256c9b;
@@ -3676,3 +3676,5 @@ only screen and (				min-resolution: 2dppx) {
 .fullscreen-bkg-13 {
     background-image: url('http://res.cloudinary.com/dei3ywikw/image/upload/c_scale,w_1200/v1459486412/atlanta-bg_ql54yc.jpg');
 }
+/* Hide sharing tool bar */
+#tml-tool-bar .tml-nav, #tml-tool-bar #tml-share-wrapper, #tml-tool-bar .tml-social-list{display:none;}

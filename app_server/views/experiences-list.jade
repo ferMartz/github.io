@@ -52,14 +52,14 @@ block content
               a(href='#', data-filter='.photography') Photograhy
             li
               a(href='#', data-filter='.application') Applications
-    .section-block.grid-container.fade-in-progressively.no-padding-top(data-layout-mode='masonry', data-grid-ratio='1.5', data-animate-filter-duration='0.7', data-animate-resize='', data-animate-resize-duration='0')
+  .section-block.grid-container.fade-in-progressively.no-padding-top(data-layout-mode='masonry', data-grid-ratio='1.5', data-animate-filter-duration='0.7', data-animate-resize='', data-animate-resize-duration='0')
       .row
         .column.width-12
           .row.grid.content-grid-3
            each experience in explista
             .grid-item.grid-sizer.photography
               .thumbnail.img-scale-in(data-hover-easing='easeInOut', data-hover-speed='700', data-hover-bkg-color='#ffffff', data-hover-bkg-opacity='0.9')
-                a.overlay-link(href=experience.linkurl, target="_blank")
+                a.tml-link.lightbox-link(data-group='data-toolbar=', data-modal-mode='', data-modal-width='800', data-content='inline', href='#one')
                   img(src=experience.imgsrc, alt='')
                   span.overlay-info
                     span
@@ -68,6 +68,11 @@ block content
               .item-description
                 h3.project-title= experience.title + "$ " + experience.price
                 span.project-description= experience.excerpt
+  #one(style='padding:30px;display:none;')
+    h3 This is a modal
+    p
+      | Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See Our Staff Picks
 
 
      

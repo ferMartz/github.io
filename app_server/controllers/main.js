@@ -9,7 +9,7 @@ promos: [{
 product: 'Flight',
 destination: 'Rio, Brazil',
 price: '685',
-modalid: '#one',
+modalid: 'one',
 imgsrc:'images/travel-agency/portfolio/grid/no-margins/angra-dos-reis-900x900.jpg',
 linkurl:'images/travel-agency/portfolio/grid/no-margins/angra-dos-reis-900x900.jpg'
 
@@ -18,7 +18,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/angra-dos-reis-900x900.j
 product: 'Flight',
 destination: 'Montreal, Canada',
 price: '285',
-modalid: '#one',
+modalid: 'one',
 imgsrc:'images/travel-agency/portfolio/grid/no-margins/calgary-900x900.jpg',
 linkurl:'images/travel-agency/portfolio/grid/no-margins/calgary-900x900.jpg'
 
@@ -27,7 +27,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/calgary-900x900.jpg'
 product: 'Flight',
 destination: 'San Pedro, Guatemala',
 price: '785',
-modalid: '#one',
+modalid: 'one',
 imgsrc:'images/travel-agency/portfolio/grid/no-margins/guatemala-camino-real-900x900.jpg',
 linkurl:'images/travel-agency/portfolio/grid/no-margins/guatemala-camino-real-900x900.jpg'
 
@@ -36,7 +36,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/guatemala-camino-real-90
 product: 'Flight',
 destination: 'Madrid, Spain',
 price: '725',
-modalid: '#one',
+modalid: 'one',
 imgsrc:'images/travel-agency/portfolio/grid/no-margins/madrid-p-900x900.jpg',
 linkurl:'images/travel-agency/portfolio/grid/no-margins/madrid-p-900x900.jpg'
 },
@@ -44,7 +44,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/madrid-p-900x900.jpg'
 	product: 'Experience',
 	destination: 'Manila Beaches',
 	price: '899',
-	modalid: '#one',
+	modalid: 'one',
 	imgsrc: 'images/travel-agency/portfolio/grid/no-margins/manila-p-900x900.jpg',
 	linkurl: 'images/travel-agency/portfolio/grid/no-margins/manila-p-900x900.jpg'
 },
@@ -52,7 +52,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/madrid-p-900x900.jpg'
 	product: 'Experience',
 	destination: 'Peru Quest',
 	price: '899',
-	modalid: '#one',
+	modalid: 'one',
 	imgsrc: 'images/travel-agency/portfolio/grid/no-margins/peru-p-900x900.jpg',
 	linkurl: 'images/travel-agency/portfolio/grid/no-margins/peru-p-900x900.jpg'
 },
@@ -60,7 +60,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/madrid-p-900x900.jpg'
 	product: 'Experience',
 	destination: 'Dominican Beaches',
 	price: '899',
-	modalid: '#one',
+	modalid: 'one',
 	imgsrc: 'images/travel-agency/portfolio/grid/no-margins/sjo-barcelo-langosta-900x900.jpg',
 	linkurl: 'images/travel-agency/portfolio/grid/no-margins/sjo-barcelo-langosta-900x900.jpg'
 },
@@ -68,7 +68,7 @@ linkurl:'images/travel-agency/portfolio/grid/no-margins/madrid-p-900x900.jpg'
 	product: 'Experience',
 	destination: 'Ecuador Uncharted',
 	price: '899',
-	modalid: '#one',
+	modalid: 'one',
 	imgsrc: 'images/travel-agency/portfolio/grid/no-margins/quito-p-900x900.jpg',
 	linkurl: 'images/travel-agency/portfolio/grid/no-margins/quito-p-900x900.jpg'
 }] });

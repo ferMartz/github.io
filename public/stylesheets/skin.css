@@ -3678,3 +3678,7 @@ only screen and (				min-resolution: 2dppx) {
 }
 /* Hide sharing tool bar */
 #tml-tool-bar .tml-nav, #tml-tool-bar #tml-share-wrapper, #tml-tool-bar .tml-social-list{display:none;}
+.side-navigation-wrapper { background-color: #256c9b;}
+.side-navigation > ul > li > a {color:#aeaeae;}
+.navigation-hide a {color:#aeaeae;}
+.side-navigation-footer, .side-navigation-footer .social-list a {color:#aeaeae;}

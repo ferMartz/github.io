@@ -3678,12 +3678,13 @@ only screen and (				min-resolution: 2dppx) {
 }
 /* Hide sharing tool bar */
 #tml-tool-bar .tml-nav, #tml-tool-bar #tml-share-wrapper, #tml-tool-bar .tml-social-list{display:none;}
-.side-navigation-wrapper { background-color: #f0f2f3;}
-.side-navigation > ul > li > a {color:#888;}
-.side-navigation > ul > li > a {border-bottom: 1px solid #eee;}
-.side-navigation > ul > li > a:hover {color:#222;}
-.navigation-hide a {color:#888;}
-[class*="icon-"].medium {color:#222;}
-.navigation-hide a:hover {color:#222;}
-.side-navigation-footer, .side-navigation-footer .social-list a {color:#888;}
-.side-navigation-footer .social-list a:hover {color:#222;}
+.side-navigation-wrapper { background-color: #275d99;}
+.side-navigation > ul > li > a {color:#fff;}
+/*.side-navigation > ul > li > a {border-bottom: 1px solid #eee;}*/
+/*.side-navigation > ul > li > a:hover {color:#fff;}*/
+.navigation-hide a {color:#fff;}
+[class*="icon-"].medium {color:#fff;}
+
+
+.side-navigation-footer, .side-navigation-footer .social-list a {color:#fff;}
+/*.side-navigation-footer .social-list a:hover {color:#fff;}*/

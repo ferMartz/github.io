@@ -79,7 +79,17 @@ block content
             each promo in promos
              .grid-item
               .thumbnail.overlay-fade-out(data-hover-easing='easeInOut', data-hover-speed='500', data-hover-bkg-color='#222222', data-hover-bkg-opacity='.3')
-                a.tml-link.lightbox-link(data-modal-mode , data-modal-width='800', href='#'+promo.price, data-content='inline')
+                if promo.ismodal
+                 a.overlay-link(href='http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=SJO&outbounddate=2016-05-16&inbounddate=2016-05-31&cabinclass=Economy&adults=1&children=0&infants=0')
+                  img(src=promo.imgsrc, alt='')
+                  span.overlay-info.center
+                   span
+                     span
+                       span.left.inline
+                         span.project-title= promo.product + " - " + promo.destination + " $" +promo.price
+                         span.project-description 
+                else 
+                 a.tml-link.lightbox-link(data-modal-mode , data-modal-width='800', href='#'+promo.price, data-content='inline')
                   img(src=promo.imgsrc, alt='')
                   span.overlay-info.center
                     span
@@ -153,3 +163,15 @@ block content
               li Public bus, private van, boat, ferry.   
               li Chief Experience Officer (CEO) throughout, local guides. 
           a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See More Details
+  
+  each yay in yeah
+     #007(style='padding:30px;display:none;')
+       span.project-title= yay.id
+       
+  each promo in promos
+   if promo.ismodal
+   
+   else
+    each info in promo.modalinfo
+     #007(style='padding:30px;display:none;')
+      span.project-title= info.id

@@ -3688,3 +3688,16 @@ only screen and (				min-resolution: 2dppx) {
 
 .side-navigation-footer, .side-navigation-footer .social-list a {color:#fff;}
 /*.side-navigation-footer .social-list a:hover {color:#fff;}*/
+
+.grid-filter-menu a{
+
+	color:#256c9b;
+
+}
+.grid-filter-menu a:hover{
+	color: #04a2e4;
+}
+.grid-filter-menu a.active{
+	color: #04a2e4;
+	border-color: #04a2e4;
+}

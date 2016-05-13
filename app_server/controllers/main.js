@@ -7,36 +7,36 @@ sectionBestBg: 'images/travel-agency/generic/hero-2.jpg',
 homeVideo:'https://player.vimeo.com/video/31299372?autoplay=1&loop=1',
 promos: [{
 product: 'Flight',
-destination: 'Rio, Brazil',
-price: '685',
+destination: 'San Jose, Costa Rica',
+price: '199',
 modalid: '.one',
 ismodal: true,
-imgsrc:'images/travel-agency/portfolio/grid/no-margins/angra-dos-reis-900x900.jpg',
-linkurl:'images/travel-agency/portfolio/grid/no-margins/angra-dos-reis-900x900.jpg',
+imgsrc:'images/travel-agency/portfolio/grid/large-margins/costa-900x900.jpg',
+linkurl:'http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=SJO&outbounddate=2016-05-16&inbounddate=2016-05-31&cabinclass=Economy&adults=1&children=0&infants=0',
 linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=SJO&outbounddate=2016-05-16&inbounddate=2016-05-31&cabinclass=Economy&adults=1&children=0&infants=0")'
 
 },
 {
 product: 'Flight',
-destination: 'Montreal, Canada',
-price: '285',
+destination: 'Managua, Nicaragua',
+price: '199',
 modalid: '.one',
 ismodal: true,
-imgsrc:'images/travel-agency/portfolio/grid/no-margins/calgary-900x900.jpg',
+imgsrc:'images/travel-agency/portfolio/grid/large-margins/managua-900x900.jpg',
 linkurl:'images/travel-agency/portfolio/grid/no-margins/calgary-900x900.jpg',
-linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=SJO&outbounddate=2016-05-16&inbounddate=2016-05-31&cabinclass=Economy&adults=1&children=0&infants=0")'
+linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=MGA&outbounddate=2016-05-08&inbounddate=2016-05-12&cabinclass=Economy&adults=1&children=0&infants=0")'
 
 
 },
 {
 product: 'Flight',
-destination: 'San Pedro, Guatemala',
-price: '785',
+destination: 'Mexico City, Mexico',
+price: '217',
 modalid: 'one',
 ismodal: true,
-imgsrc:'images/travel-agency/portfolio/grid/no-margins/guatemala-camino-real-900x900.jpg',
+imgsrc:'images/travel-agency/portfolio/grid/large-margins/mexico-city-900x900.jpg',
 linkurl:'images/travel-agency/portfolio/grid/no-margins/guatemala-camino-real-900x900.jpg',
-linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=SJO&outbounddate=2016-05-16&inbounddate=2016-05-31&cabinclass=Economy&adults=1&children=0&infants=0")'
+linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=MEX&outbounddate=2016-05-06&inbounddate=2016-05-08&cabinclass=Economy&adults=1&children=0&infants=0")'
 
 
 },

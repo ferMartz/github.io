@@ -1,8 +1,10 @@
 
+
 /* Get homepage */
+
 module.exports.index = function(req, res){
 res.render('index', { title: 'Tripkii',
-pageHeaderBg: 'images/travel-agency/slider/slide-9-fs.jpg',
+pageHeaderBg: 'images/travel-agency/slider/slide-10-fs.jpg',
 sectionBestBg: 'images/travel-agency/generic/hero-2.jpg',
 homeVideo:'https://player.vimeo.com/video/31299372?autoplay=1&loop=1',
 promos: [{

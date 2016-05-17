@@ -16,7 +16,7 @@ block content
                     .row
                       .column.width-6.offset-3.weight-light
                         a.tms-caption.button.medium.border-white.bkg-hover-grey-ultralight.color-white.color-hover-grey.text-uppercase(href='/experiences', data-offset='-60', data-animate-in='opacity:0;scale:1.5;duration:900ms;delay:400ms;easing:easeFastSlow;', data-no-scale='') New Travel Experiences
-            img(data-src=pageHeaderBg , data-retina='', src='images/blank.png', alt='')
+            img#yo(data-src=pageHeaderBg , data-retina='', src='images/blank.png', alt='')
   section.section-block.hero-5.hero-5-1.clear-height.show-media-column-on-mobile.bkg-white
       .media-column.width-6.horizon(data-animate-in='opacity:0;transX:-50px;duration:1000ms;delay:100ms;easing:easeIn;', data-threshold='0.5')
       .row
@@ -81,7 +81,7 @@ block content
              .grid-item
               .thumbnail.overlay-fade-out(data-hover-easing='easeInOut', data-hover-speed='500', data-hover-bkg-color='#222222', data-hover-bkg-opacity='.3')
                 if promo.ismodal
-                 a.overlay-link(href='http://search.ss.tripkii.com/en-GB/flights#/result?originplace=HOUA&destinationplace=SJO&outbounddate=2016-05-16&inbounddate=2016-05-31&cabinclass=Economy&adults=1&children=0&infants=0')
+                 a.overlay-link(href=promo.linkurl)
                   img(src=promo.imgsrc, alt='')
                   span.overlay-info.center
                    span
@@ -164,33 +164,35 @@ block content
               li Public bus, private van, boat, ferry.   
               li Chief Experience Officer (CEO) throughout, local guides. 
           a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See More Details
+
   each promo in promos
    if promo.ismodal
    
    else
     each info in promo.modalinfo
      div(id=info.id)(style='padding:30px;display:none;')
-      h3 #{info.title}
+      h4 #{info.title}
        .column.width-6
         img(src=info.routeimg, alt='')
       .column.width-6
-       h4 Travel Style: #{info.travelstyle}
+       h5 Travel Style: #{info.travelstyle}
        p
          | #{info.styleinfo}
-       h4 Physical Rating: #{info.physical}
+       h5 Physical Rating: #{info.physical}
        p
          | #{info.physicalinfo}
       .column.width-6
-       h4 Service Level: #{info.service}
+       h5 Service Level: #{info.service}
        p
          | #{info.serviceinfo}
-       h4 Trip Type: #{info.triptype}
+       h5 Trip Type: #{info.triptype}
        p #{info.typeinfo}
       .column.width-6
-       h4 Experience includes:
+       h5 Experience includes:
        ul
          li #{info.includeone}
          li #{info.includetwo}   
          li #{info.includethree}  
          li #{info.includefour}
       a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href=info.tourlink, target='_blank', data-offset='-60') See More Details
+  

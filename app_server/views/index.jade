@@ -170,10 +170,9 @@ block content
    
    else
     each info in promo.modalinfo
-     div(id=info.id)(style='padding:30px;display:none;')
-      h4 #{info.title}
-       .column.width-6
-        img(src=info.routeimg, alt='')
+     div.modal-margins(id=info.id)(style='padding:30px;display:none;')
+      h3 #{info.title}
+      
       .column.width-6
        h5 Travel Style: #{info.travelstyle}
        p
@@ -181,18 +180,21 @@ block content
        h5 Physical Rating: #{info.physical}
        p
          | #{info.physicalinfo}
-      .column.width-6
+      
        h5 Service Level: #{info.service}
        p
          | #{info.serviceinfo}
        h5 Trip Type: #{info.triptype}
        p #{info.typeinfo}
+      
+       
       .column.width-6
-       h5 Experience includes:
-       ul
-         li #{info.includeone}
-         li #{info.includetwo}   
-         li #{info.includethree}  
-         li #{info.includefour}
-      a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href=info.tourlink, target='_blank', data-offset='-60') See More Details
+        h5 Experience includes:
+        ul
+          li #{info.includeone}
+          li #{info.includetwo}   
+          li #{info.includethree}  
+          li #{info.includefour}
+         img(src=info.routeimg, alt='')
+      a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href=info.tourlink, target='_blank', data-offset='-60')(style='margin-top:20px;') See More Details
   

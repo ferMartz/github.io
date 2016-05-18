@@ -3701,3 +3701,5 @@ only screen and (				min-resolution: 2dppx) {
 	color: #04a2e4;
 	border-color: #04a2e4;
 }
+.modal-margins h4, h5, p{margin: 0 0 1rem 0;}
+.modal-margins p, ul{font-size: 1.3rem;}

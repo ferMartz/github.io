@@ -4,7 +4,7 @@
 
 module.exports.index = function(req, res){
 res.render('index', { title: 'Tripkii',
-pageHeaderBg: 'images/travel-agency/slider/slide-10-fs.jpg',
+pageHeaderBg: 'https://s3.amazonaws.com/tripkii-bucket/static/slider/slide-11-fs.jpg',
 sectionBestBg: 'images/travel-agency/generic/hero-2.jpg',
 homeVideo:'https://player.vimeo.com/video/31299372?autoplay=1&loop=1',
 promos: [{

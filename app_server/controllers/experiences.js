@@ -2,11 +2,35 @@
 module.exports.list = function(req, res){
 res.render('experiences-list', { title: 'Travel Experiences',
 explista :[{
-	imgsrc: 'images/portfolio/grid/large-margins/g-essence-nicaragua-760x507.jpg',
-	title: 'Essence of Nicaragua',
-	price: '831',
-	excerpt: 'From the colonial streets of Granada and León to the beauty of San Juan del Sur’s horseshoe bay, discover the best of Nicaragua on this unique 12-day adventure. Encounter a nature-lover’s paradise on Ometepe Island and see both dormant and active volcanoes amidst this country’s stunning wilderness.',
-	linkurl: 'http://www.dpbolvw.net/6r105mu2-u1HPRPKRJLHJIPQJINOHJMLMRQJLOIIII?url=http%3A%2F%2Fwww.gadventures.com%2Ftrips%2Fessence-of-nicaragua%2F2172%2F%3Faff%3D26414&cjsku=CNEN2015',
+	imgsrc:'https://s3.amazonaws.com/tripkii-bucket/static/amazon-riverboat-760x507.jpg',
+	title: 'Amazon Riverboat',
+	price: '2699',
+	excerpt: 'Hop aboard a riverboat and experience the Amazon in style. Led by an Amazon Reserve naturalist guide, your cruise will include daily excursions by motorized skiff designed to reveal the exotic wildlife that calls the rainforest home – with any luck you’ll spot sloths, toucans, or pink dolphins! And, with two full days for exploration in Pacaya–Samiria National Reserve, you’ll have the chance to experience the jungle up close. ',
+	linkurl: 'http://www.anrdoezrs.net/links/7972913/type/dlg/https://www.gadventures.com/trips/amazon-riverboat-adventure-aboard-amatista/2368/',
+	continent: 'america'
+},
+{
+	imgsrc: 'https://s3.amazonaws.com/tripkii-bucket/static/sailing-croatia-450x675.jpg',
+	title: 'Sailing Croatia',
+	price: '1102',
+	excerpt: 'Whether you’re looking for relaxed afternoons lazing on the deck of a yacht or time to indulge in the nightlife, this Croatian cruise aims to please. Embark in lovely Dubrovnik and discover charming villages as you sail from island to stunning island on a small yacht.',
+	linkurl: 'http://www.anrdoezrs.net/links/7972913/type/dlg/https://www.gadventures.com/trips/sailing-croatia-dubrovnik-to-split/2340/',
+	continent: 'europe'
+},
+{
+	imgsrc: 'https://s3.amazonaws.com/tripkii-bucket/static/egypt-adventure-760x507.jpg',
+	title: 'Egypt Adventure',
+	price: '1179',
+	excerpt: 'Travel to Egypt and follow the path of the River Nile as you revel in a taste of Egypt’s history, beauty and colour on this short but action-packed trip along the longest river in the world. Cruise the Nile on a felucca, discover the largest and most impressive pharaonic temples, chat and dine with interesting locals and live it up in this country of deserts, bazaars, monuments and good old-fashioned adventures.',
+	linkurl: 'http://www.anrdoezrs.net/links/7972913/type/dlg/https://www.intrepidtravel.com/egypt/egypt-adventure-93911',
+	continent: 'africa'
+},
+{
+	imgsrc: 'https://s3.amazonaws.com/tripkii-bucket/static/mexico-culinary-tour-760x507.jpg',
+	title: 'Food Adventure - Mexico',
+	price: '1452',
+	excerpt: 'Get an authentic taste of Mexico on this luscious journey through some of the country’s most famous culinary regions. Meander through Oaxaca’s aromatic markets; take to the streets of Puebla to sample some the city’s local specialties; indulge in fresh seafood on the beach; and take to the streets of Mexico City on a taco crawl to experience a delightful culinary heritage that goes back thousands of years.',
+	linkurl: 'http://www.anrdoezrs.net/links/7972913/type/dlg/https://www.intrepidtravel.com/mexico/real-food-adventure-mexico-94470',
 	continent: 'america'
 },
 {

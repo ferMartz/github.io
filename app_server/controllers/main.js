@@ -62,7 +62,7 @@ linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/resul
 	modalinfo: [{
 		id: '005',
 		title: '09 Days: Lima to Lima',
-		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/amazon-r-route.jpg',
+		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/routes/amazon-r-route.jpg',
 		travelstyle: 'Marine',
 		styleinfo: 'Small-ship adventures on the world’s great seas, rivers, and other places only accessible by boat.',
 		physical: 'Light',
@@ -92,7 +92,7 @@ linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/resul
 	modalinfo: [{
 		id: '006',
 		title: '08 Days: Sailing Croatia',
-		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/sailing-croatia-route.jpg',
+		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/routes/sailing-croatia-route.jpg',
 		travelstyle: 'Marine',
 		styleinfo: 'Small-ship adventures on the world’s great seas, rivers, and other places only accessible by boat.',
 		physical: 'Light',
@@ -122,7 +122,7 @@ linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/resul
 	modalinfo: [{
 		id: '007',
 		title: '08 Days: Egypt Adventure',
-		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/egyp-adventure-route.jpg',
+		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/routes/egypt-adventure-route.jpg',
 		travelstyle: 'Original',
 		styleinfo: 'All of the highlights, culture, access, and I-can’t-believe-we-did-that moments, all at a great price.',
 		physical: 'Moderate light',
@@ -152,7 +152,7 @@ linktype: '.overlay-link(href="http://search.ss.tripkii.com/en-GB/flights#/resul
 	modalinfo: [{
 		id: '008',
 		title: '09 Days: Food Adventure - Mexico',
-		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/mexico-culinary-route.jpg',
+		routeimg: 'https://s3.amazonaws.com/tripkii-bucket/static/routes/mexico-culinary-route.jpg',
 		travelstyle: 'Original',
 		styleinfo: 'All of the highlights, culture, access, and I-can’t-believe-we-did-that moments, all at a great price.',
 		physical: 'Moderate light',

@@ -59,7 +59,7 @@ block content
            each experience in explista
             .grid-item.grid-sizer(class=experience.continent)
               .thumbnail.img-scale-in(data-hover-easing='easeInOut', data-hover-speed='700', data-hover-bkg-color='#ffffff', data-hover-bkg-opacity='0.9')
-                a.tml-link.lightbox-link(data-group='', data-toolbar='', data-modal-mode='', data-modal-width='800', data-content='inline', href='#one')
+                a.tml-link.lightbox-link(data-group='', data-toolbar='', data-modal-mode='', data-modal-width='800', data-content='inline', href='#'+experience.id)
                   img(src=experience.imgsrc, alt='')
                   span.overlay-info
                     span
@@ -68,28 +68,31 @@ block content
               .item-description
                 h3.project-title= experience.title + " $ " + experience.price
                 span.project-description= experience.excerpt
-                #one(style='padding:30px;display:none;')
-                    h3 12 Days: Granada to Granada
-                    .column.width-6
-                      img(src='images/travel-agency/generic/nica-route.jpg', alt='')
-                    .column.width-6
-                      h4 Travel Style: Classic
-                      p
-                        | All of the highlights, culture, access, and I-can’t-believe-we-did-that moments, all at a great price.
-                      h4 Physical Rating: Light
-                      p
-                        | Light walking and hiking suitable for most fitness levels. Nothing too challenging.
-                    .column.width-6
-                      h4 Service Level: Standard
-                      p
-                        | Comfortable tourist-class accommodations with character; mix of public and private transport.
-                      h4 Trip Type: Small Group
-                      p Small group experience; Max 16, avg 12
-                    .column.width-6
-                      h4 Experience includes:
-                      ul
-                        li Hotels (9 nts), homestay (2 nts). 
-                        li 3 breakfasts, 0 lunches, 2 dinners   
-                        li Public bus, private van, boat, ferry.   
-                        li Chief Experience Officer (CEO) throughout, local guides. 
-                    a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href='http://cnn.com', target='_blank', data-offset='-60') See More Details
+                div.modal-margins(id=experience.id)(style='padding:30px;display:none;')
+                 h3 #{experience.title}
+                 
+                 .column.width-6
+                  h5 Travel Style: #{experience.travelstyle}
+                  p
+                    | #{experience.styleinfo}
+                  h5 Physical Rating: #{experience.physical}
+                  p
+                    | #{experience.physicalinfo}
+                 
+                  h5 Service Level: #{experience.service}
+                  p
+                    | #{experience.serviceinfo}
+                  h5 Trip Type: #{experience.triptype}
+                  p #{experience.typeinfo}
+                 
+                  
+                 .column.width-6
+                   h5 Experience includes:
+                   ul
+                     li #{experience.includeone}
+                     li #{experience.includetwo}   
+                     li #{experience.includethree}  
+                     li #{experience.includefour}
+                    img(src=experience.routeimg, alt='')
+                 a.button.medium.bkg-twitter.border-hover-facebook.color-white.color-hover-facebook.border-hover-facebook.text-uppercase(href=experience.tourlink, target='_blank', data-offset='-60')(style='margin-top:20px;') More Details & Book
+                

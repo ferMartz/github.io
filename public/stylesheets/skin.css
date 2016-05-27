@@ -69,7 +69,7 @@ textarea,
 .side-navigation > ul > li > a,
 .overlay-navigation > ul > li > a,
 .grid-filter-menu a{
-		font-family: 'Lato', 'Helvetica Neue', sans-serif;
+		font-family: 'Roboto','Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* Titles */
@@ -1953,7 +1953,7 @@ h3.project-title{
 	text-transform: uppercase;
 }
 .project-description{
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 }
 
 /* Project 1 */
